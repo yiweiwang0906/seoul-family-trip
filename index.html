@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#304b3c"><meta name="description" content="两大一小的首尔秋日旅行手册。选景点、看地图、自由组合行程，带着宝宝慢慢认识首尔。">
+  <title>首尔，三个人的秋天 · Seoul Family Notes</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml"><link rel="manifest" href="./manifest.webmanifest"><link rel="stylesheet" href="./style.css">
+  <script src="./data.js" defer></script><script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要内容</a>
+  <header class="header">
+    <a class="brand" href="#explore" aria-label="首尔旅行手册首页"><span class="brand-mark">首<span>尔</span></span><span>三个人的秋天<small>SEOUL FAMILY NOTES</small></span></a>
+    <nav aria-label="主导航" id="nav"></nav>
+    <button class="saved-shortcut" data-action="saved" aria-label="查看收藏">♡ <span id="saved-count">0</span></button>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="footer"><div><strong>留一点空白，给旅途里的惊喜。</strong><span>SEOUL · OCTOBER 2026 · TWO + ONE</span></div><p>资料核实于 2026.09.27 · 时间均注明当地时区<br>价格与交通为参考，营业、空位和天气请在出发前复核。</p><button data-action="print" class="text-button">打印旅行手册 ↗</button></footer>
+  <aside class="hotel-dock" aria-label="回酒店快捷操作"><button data-action="hotel">⌂ <span>回酒店</span></button><span class="dock-line"></span><a href="tel:+82269173100" aria-label="拨打酒店电话">☎</a></aside>
+  <dialog id="detail-dialog" aria-label="地点详情"></dialog>
+  <dialog id="add-dialog" aria-label="加入行程"></dialog>
+  <dialog id="confirm-dialog" aria-label="确认操作"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <input id="import-file" type="file" accept="application/json,.json" hidden>
+  <noscript><p class="noscript">请开启 JavaScript 查看景点库和行程编辑器。酒店：서울 중구 마른내로 28，电话 +82-2-6917-3100。</p></noscript>
+</body>
+</html>
